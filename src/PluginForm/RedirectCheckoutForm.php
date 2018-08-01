@@ -80,9 +80,9 @@ class RedirectCheckoutForm extends PaymentOffsiteForm {
 	$retriesAllowed = "1";
     
     if($commerce_quikpay_debug==0){
-    	$redirect_url = 'https://eservicestest.rit.edu/infinetProcessor/passthroughRedirect.process';
+    	$redirect_url = 'https://quikpaytest.url';
     }else{
-    	$redirect_url = 'https://eservices.rit.edu/infinetProcessor/passthroughRedirect.process';
+    	$redirect_url = 'https://quikpay.url';
     }
     
     $to_hash = "";
