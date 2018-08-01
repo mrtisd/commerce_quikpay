@@ -1,0 +1,14 @@
+commerce_quikpay.admin:
+    path: '/admin/config/commerce_quikpay/admin'
+    defaults:
+        _form: '\Drupal\commerce_quikpay\Form\QuikpayForm'
+        _title: 'Quikpay'
+    requirements:
+        _permission: 'administer quikpay accounts'
+commerce_quikpay.complete:
+  path: '/checkout/quikpay/complete'
+  defaults:
+    _controller: '\Drupal\commerce_quikpay\Controller\QuikpayController::callback'
+    _title: 'Order complete'
+  requirements:
+    _permission: 'access checkout'

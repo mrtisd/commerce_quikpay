@@ -1,0 +1,3 @@
+administer quikpay accounts:
+  description: 'Administer multiple QuikPay payment accounts.'
+  title: 'Administer QuikPay Accounts'

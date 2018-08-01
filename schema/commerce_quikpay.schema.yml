@@ -1,0 +1,31 @@
+# config/schema/commerce_quikpay.schema.yml
+commerce_quikpay.commerce_payment_gateway.plugin.quikpay_redirect_checkout:
+  type: commerce_payment_gateway_configuration
+  mapping:
+    commerce_quikpay_account:
+      type: boolean
+      label: 'Account'
+    commerce_quikpay_key:
+      type: string
+      label: 'Shared key'
+    commerce_quikpay_order_description:
+      type: string
+      label: 'Order Description'
+    commerce_quikpay_allowed_methods:
+      type: string
+      label: 'Allowed Methods'
+    commerce_quikpay_test_url:
+      type: string
+      label: 'Test URL'
+    commerce_quikpay_live_url:
+      type: string
+      label: 'Live URL'
+    commerce_quikpay_debug:
+      type: boolean
+      label: 'Debug'
+    commerce_quikpay_hash_algo:
+      type: string
+      label: 'Hash Algorithm'
+    commerce_quikpay_logging:
+      type: string
+      label: 'Logging'

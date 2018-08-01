@@ -1,0 +1,19 @@
+<?php
+/**
+ * @file
+ * Commerce Quikpay (un)install hooks.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function commerce_quikpay_install() {
+  \Drupal::state()->set('commerce_quikpay_accounts', array("Default"));
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function commerce_quikpay_uninstall() {
+  \Drupal::state()->delete('commerce_quikpay_accounts');
+}

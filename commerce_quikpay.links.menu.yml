@@ -1,0 +1,4 @@
+commerce_quickpay.admin:
+    title: 'Quikpay'
+    parent: system.admin_config
+    route_name: commerce_quikpay.admin
