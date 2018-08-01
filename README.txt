@@ -24,3 +24,6 @@ method" action to edit the settings for that payment method.
 
 Each payment method can be configured with other rules to allow complete 
 flexibility on when a certain payment method and payment account is used.
+
+TODO:
+Update configuration form to allow for a dynamic URL. Currently need to hardcode within src/PluginForm/RedirectCheckoutForm.php
